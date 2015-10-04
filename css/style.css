@@ -8,7 +8,7 @@ Main Style Stylesheet
 -------------------------------------------------------------------*/
 
 /*------------------------------------------------------------------
-body 
+body
  + WRAP
  + HEADER
  + NAVIGATION
@@ -22,7 +22,7 @@ body
  + FOOTER
  + SOCIAL ICONS
  + MEGA MENU
- + 3 MENU LEVEL 
+ + 3 MENU LEVEL
 -------------------------------------------------------------------*/
 /*=======================================================
 			THEME STYLING START
@@ -465,7 +465,7 @@ header .ownmenu ul.dropdown li:nth-last-child(1) a {
 	font-size: 12px;
 	display: inline-block;
 	width: 100%;
-	
+
 }
 .ownmenu li > .megamenu li:hover {
 	background: none;
@@ -834,7 +834,7 @@ header .btn-right .btn:hover i {
 }
 .countdown li{
 	display:inline-block;
-	float:left; 
+	float:left;
 	margin-right:10px;
 	text-align:center;
 }
@@ -1677,7 +1677,7 @@ header .btn-right .btn:hover i {
 }
 .gallery-pages .gallery-item li:hover .item-in {
 }
-.gallery-pages .item { 
+.gallery-pages .item {
 	margin-bottom:30px;
 }
 .gallery-pages .gallery-item .item-over .item-in.pa-30{
@@ -1998,10 +1998,10 @@ header .btn-right .btn:hover i {
 	position:relative;
 }
 .gallery .grid-item--width2 {
-	
+
 }
 .gallery .grid-item--height2 {
-	
+
 }
 /*=======================================================
 			CONTACT US
@@ -2180,7 +2180,7 @@ header .btn-right .btn:hover i {
 }
 .error-text .search{
 	margin-top:50px;
-	padding:0 20%;	
+	padding:0 20%;
 }
 .error-text .search button{
 	background:#01ABDE;
@@ -2442,7 +2442,7 @@ header .btn-right .btn:hover i {
 }
 .blog-pages .recent-post .img{
 	width:80px;
-	
+
 }
 .blog-pages .recent-post li{
 	display:inline-block;
@@ -2521,7 +2521,7 @@ header .btn-right .btn:hover i {
 }
 .blog-single .tags li{
  	display:inline-block;
-	
+
 }
 .blog-single .blog-post{
 	margin-bottom:0px;
@@ -2532,7 +2532,7 @@ header .btn-right .btn:hover i {
 	border-bottom:1px solid #e8e8e8;
 	padding-bottom:20px;
 }
- 
+
 .blog-single .tags li a{
 	font-family: 'Lora', serif;
 	margin-left:5px;
@@ -2573,7 +2573,7 @@ header .btn-right .btn:hover i {
 .comments .media-left a{
 	width:100px;
 	display:inline-block;
-	
+
 }
 .comments .media p {
 	margin-top: 15px;
@@ -2596,7 +2596,7 @@ header .btn-right .btn:hover i {
 	font-weight: normal;
 	font-style:italic;
 	text-align:center;
-	
+
 }
 .comments .media a img{
 	margin-bottom:10px;
@@ -2745,7 +2745,7 @@ header .btn-right .btn:hover i {
 	margin: 0px;
 }
 .proud h2 i {
-	color: #ecc730;
+	color: #00374E;
 }
 /*=======================================================
 			EVENT PAGES
@@ -3241,4 +3241,23 @@ footer .rights p {
 	color: #fff;
 	background-color: #35506b;
 	border-color: #35506b;
+}
+
+
+
+/*---===== Personal Tweaks made by moi =====---*/
+
+.cate {
+	border-bottom: 1px solid #e8e8e8;
+	color: #232323;
+	padding: 20px;
+}
+.cate li {
+	border-bottom: none;
+	padding: 5px, 0;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-family: 'Lato';
+	list-style: square;
+	text-align: left;
 }

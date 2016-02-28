@@ -1,7 +1,7 @@
 <?php
 
 	// specify your email here
-	$to = 'adnan@webicode.com';
+	$to = 'info@hd2caresupportservices.com';
 
 	// Assigning data from $_POST array to variables
     if (isset($_POST['name'])) { $name = $_POST['name']; }
@@ -9,12 +9,12 @@
     if (isset($_POST['company'])) { $company = $_POST['company']; }
     if (isset($_POST['website'])) { $website = $_POST['website']; }
     if (isset($_POST['message'])) { $message = $_POST['message']; }
-	
-	
-	
-	
+
+
+
+
 	// Construct subject of the email
-	$subject = 'Social Welfare - Charity &amp; Non-Profit HTML5 Template Contact ' . $name;
+	$subject = 'hd2 care support services enquiry ' . $name;
 
 
 
@@ -42,5 +42,5 @@
                 </script>
 	<?php
 	} // End else
-    
+
 ?>
